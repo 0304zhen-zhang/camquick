@@ -1,0 +1,312 @@
+#main{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 0.67rem;
+	background: #010101;
+	color:#fff;
+}
+header ul {
+  width: 100%;
+  height: 0.67rem;
+}
+header ul li {
+	float: left;
+	height: 0.67rem;
+  	list-style: none;
+  	font-family: "微软雅黑";
+ 	text-align: center;
+ 	line-height: 0.67rem;
+}
+.first{
+	width:12%;
+	font-size:0.4rem;
+}
+.adress{
+	width:72%;
+	font-size:0.28rem;
+	
+}
+.last{
+	width:16%;
+	font-size:0.34rem;
+}
+#nav{
+	font-size: 0.18rem;
+	width: 100%;
+	height: 0.67rem;
+	background: #0c0c0c;
+	color:#727272;
+}
+#nav ul{
+	display: -webkit-box;
+}
+#nav ul li{
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	list-style: none;
+	text-align: center;
+	position: relative;
+	line-height: 0.67rem;
+}
+.active{
+	color: #fff;
+	border-bottom: 2px solid red;
+}
+#middle{
+	padding:0 5%;
+	color:#010101;
+}
+.middle1{
+	height:0.68rem;
+	line-height: 0.68rem;
+	border-bottom:1px solid #eee;
+}
+.middle1 span{
+	float: left;
+	width:0.35rem;
+	height:0.3rem;
+}
+.middle1 span img{
+	height:100%;
+	margin-top:10px;
+}
+.middle1 .tit{
+	font-size:0.25rem;
+	float: left;
+	width:25%;
+	padding-left: 0.18rem;
+	line-height: 0.68rem;	
+	
+}
+.middle1 .th{
+	float: right;
+	display: block;
+	font-size: 0.2rem;
+	line-height: 0.68rem;
+}
+.fa-th-large{
+	font-size:0.3rem;
+	color:#f38089;
+}
+.middle2{
+	height:0.68rem;
+	line-height: 0.68rem;
+	border-bottom:1px solid #eee;
+}
+.middle2 span{
+	display: inline-block;
+	float: left;
+	width: 0.05rem;
+	height:0.05rem;
+	background: red;
+	margin:6% 6% 0 0 ;
+}
+.middle2 p{
+	float: left;
+	width:60%;
+	height:0.68rem;
+	line-height: 0.68rem;
+}
+.msp{
+	position: fixed;
+	top:6rem;
+	left:40%;
+	width:1.2rem;
+	height:0.4rem;
+	background:#d2002e;
+	border-radius: 0.3rem;
+	font-size:0.14rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.4rem;
+	z-index: 99999;
+}
+/*三角形*/
+.triangle_border_down{
+    width:0;
+    height:0;
+    border-style:solid;
+    border-color:#333 transparent transparent;/*灰 透明 透明 */
+    margin:40px auto;
+    position:relative;
+}
+.triangle_border_down span{
+    display:block;
+    width:0;
+    height:0;
+    border-width:0.15rem 0.15rem 0;
+    border-style:solid;
+    border-color:#d2002e transparent transparent;/*黄 透明 透明 */
+    position:fixed;
+   	top:6.38rem;
+	left:3rem;
+}
+
+/*地图*/
+#map_container{ height:8.6rem}
+#BMapLib_searchBoxContent .BMapLib_sc_t{
+	border-bottom:0;
+}
+@media print{
+  #notes{display:none}
+  #map_container{margin:0}
+}
+.BMap_cpyCtrl,.anchorBL{
+	display: none;
+} 
+#BMapLib_normalBox #BMapLib_sc0 .BMapLib_sc_t_b{
+	font-weight: normal;
+}
+/*阴影部分*/
+.box{
+	display: none;
+}
+.switch_city{
+	position: absolute;
+	top: 0.67rem;
+	left:0;
+	background: #fff;
+	width:92%;
+	height:0.67rem;
+	z-index: 9;
+	opacity: 0.8;
+	padding:0 4%;
+}
+.switch_city p{
+	display: inline-block;
+	float: left;
+	color:#010101;
+	z-index: 9;
+	line-height: 0.67rem;
+	font-size:0.24rem;
+}
+.switch_city span{
+	/*color:#010101;*/
+	float: right;
+	z-index: 9;
+	line-height: 0.67rem;
+	font-size:0.2rem;
+}
+.switch_city_b{
+	z-index: 9;
+	position: absolute;
+	top: 1.34rem;
+	left:0;
+	width:100%;
+	height:100%;
+	background: #000;
+	opacity: 0.3;
+}
+/*city_box*/
+.city_box{
+	z-index: 99;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	overflow: auto;
+	background: #f0f0f0;
+}
+.city_box header{
+	position: fixed;
+	width:100%;
+	height:0.67rem;
+	background: #000;
+	color:#fff;
+	
+}
+.city_box header h1{
+	font-weight: normal;
+	font-size:0.26rem;
+	text-align: center;
+	line-height: 0.67rem;
+}
+.city_box .index ul{
+	z-index: 999;
+	position: fixed;
+	top:0.67rem;
+	right: 0;
+	width:0.3rem;
+	font-size: 0.18rem;
+	background: #fff;
+}
+.city_box .index ul li{
+	margin:0.08rem 0;
+	text-align: center;
+}
+.city_box .now{
+	width:90%;
+	height:0.67rem;
+	padding:0.67rem 5% 0 5%;
+	border-bottom: 1px solid #ccc;
+}
+.city_box .now p{
+	float: left;
+	color:#000;
+	line-height:0.67rem;
+	display: inline-block;
+	font-size: 0.28rem;
+}
+.city_box .now span{
+	float: right;
+	width:1rem;
+	height:0.5rem;
+	background: red;
+	font-size:0.28rem;
+	color:#ffffff;
+	line-height: 0.5rem;
+	text-align: center;
+	margin:0.1rem 0.15rem 0 0;
+}
+.hot{
+	width:100%;
+	height:2.1rem;
+}
+.hot p{
+	color:#000;
+	font-size: 0.28rem;
+	line-height:0.6rem;
+	padding-left: 5%;
+}
+.hot ul{
+	width:100%;
+	height:0.88rem
+}
+.hot ul li{
+	float: left;
+	width:0.8rem;
+	height:0.8rem;
+	margin:0 0.1rem;
+	background:#fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.8rem;
+	color:#000;
+	font-size:0.24rem;
+	border:1px solid #000;
+}
+.city li{
+	width:100%;
+	margin:0 5%;
+	color:#a6a4a7;
+	height:1rem;
+}
+.city .odd{
+	height:0.25rem;
+	background: #e9e9e9;
+	font-size:0.14rem;
+}
+.city a{
+	display: block;
+	width: 100%;
+	color:#a6a4a7;
+	height:0.8rem;
+	background: #f0f0f0;
+	font-size:0.28rem;
+	line-height: 0.8rem;
+	border-bottom: 1px solid #a6a4a7;
+}

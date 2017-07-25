@@ -1,0 +1,25 @@
+/*html,body{width:100%;height:100%;}
+
+#wrap{width:94%;height:100%;padding:0 3%;background:goldenrod;}
+#wrap .div1{width:100%;background:brown;}
+#wrap .div1 .up{width:100%;height:4.3rem;background: green;}
+.div1 .up .left{width:40%;}
+.div1 .up .left h1{width:2.1rem;height:0.88rem;}
+.div1 .up .left h2{width:1.33rem;height:0.52rem;margin-bottom: 0.1rem;}
+.div1 .up .left p{height:0.8rem;font-size: 0.18rem;color:#0d0d0d;line-height:0.3rem}
+.div1 .right{float:right;width:57%;height:4.22rem;}*/
+#wrap{width:94%;padding:0 3%;background: :#fff;}
+img{width:100%;height:100%;}
+#wrap .div1{width:100%;padding:0.26rem 0 0.42rem; }
+#wrap .div1 .up{width:100%;height:4.3rem;border-bottom: 1px solid #e3e3e3;padding-bottom: 0.24rem;}
+.div1 .up .left{width:45%;display:inline-block}
+.div1 .up .left h1{width:2.1rem;height:0.88rem;margin-bottom:0.8rem;}
+.div1 .up .left h2{width:1.33rem;height:0.52rem;margin-bottom: 0.1rem;}
+.div1 .up .left p{height:0.8rem;font-size: 0.18rem;color:#0d0d0d;line-height:0.3rem;width:2.26rem;}
+.div1 .right{float:right;width:55%;height:4.22rem;}
+.div1 .down{width:100%;height:1.68rem;padding:0.24rem 0;}
+.div1 .down li{float: left;width:44%;padding:0 3%;}
+.div2 .down{width:100%;height:4.02rem;padding:0.24rem 0;}
+.div1 .up .left .leisure{width:0.8rem;height:0.52rem;}
+.div1 .up .left .adorable{width:1.32rem;height:0.52rem;}
+.button{width:4.28rem;height:0.78rem;background:#d80c18;text-align:center;margin:0.5rem auto;color:#fff;font-size:0.32rem;display: block;border:0;border-radius: 0.05rem;}

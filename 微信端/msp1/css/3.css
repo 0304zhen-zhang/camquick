@@ -1,0 +1,58 @@
+
+section{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+}
+header{
+	width: 100%;
+	height: 0.67rem;
+	background: #010101;
+	color:#fff;
+}
+header ul {
+  width: 100%;
+  height: 0.67rem;
+}
+header ul li {
+	float: left;
+	height: 0.67rem;
+  	list-style: none;
+  	font-family: "微软雅黑";
+ 	text-align: center;
+ 	line-height: 0.67rem;
+}
+.first{
+	width:12%;
+	font-size:0.4rem;
+}
+.adress{
+	width:72%;
+	font-size:0.28rem;
+}
+.last{
+	width:16%;
+	font-size:0.34rem;
+}
+.type h2{
+	color: #000;
+	font-size:0.24rem;
+	text-align: center;
+	height:0.74rem;
+	line-height: 0.74rem;
+}
+.type ul {
+	width:100%;
+	height:5rem;
+}
+.type ul li{
+	float: left;
+	width:33.333%;
+	height:1.66rem;
+}
+.type ul li img{
+	width:100%;
+	height:100%;
+}

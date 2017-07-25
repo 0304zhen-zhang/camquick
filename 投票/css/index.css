@@ -1,0 +1,52 @@
+@media only screen and (max-width: 2000px) { 
+    html {
+        font-size: 150%;/*20 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 1500px) { 
+    html {
+        font-size: 125%;/*20 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 1280px) { 
+    html {
+        font-size: 110.6%;/*17 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 720px) { 
+    html {
+        font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 600px) { 
+    html {
+        font-size: 50%;/*8 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 414px) { 
+    html {
+        font-size: 50%;/*7 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 375px) { 
+    html {
+        font-size: 37.5%;/*6 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@media only screen and (max-width: 320px) { 
+    html {
+        font-size: 31.25%;/*5 ÷ 16 × 100% = 62.5%*/
+    }
+}
+@font-face {
+    font-family:"acme";
+    src: url(acme.TTF);
+}
+.msg{ width:100%; height:6rem; }
+.msg h2{width:100%;font-size: 2.4rem;margin-bottom: 0.5rem;}
+.msg p{width;100%;font-size:2rem}
+.list{width:100%;height:25rem;background:#f5f6f8;}
+.list ul{padding:0;}
+.list li{width:98%;list-style: none;height:4rem;border-bottom: 1px solid #ebeced;font-size:2rem;line-height: 4rem;}	
+.list .first{color:#a9a9a9;display:inline-block;}
+.list span{float: right;display:inline-block;}

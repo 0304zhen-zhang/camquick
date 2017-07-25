@@ -1,0 +1,28 @@
+var render = function(){
+		var li = '';
+		var padding = 1;
+		var winWidth = $(window).width();
+		var picWidth = Math.floor((winWidth-padding*2)/3);
+
+		for(var i=total;i>0;i--){
+			var p = padding;
+			var imgSrc='img/'+i+'.jpg';
+//			¥À¥¶total/3”‡º∏
+			if(i%3==2){
+				p = 0;
+			}
+			
+			li+='<li data-id="'+i+'" class="animated bounceIn" style="width:'+picWidth+'px;height:'+picWidth+'px;padding-left:'+p+'px;padding-top:'+padding+'px;"><canvas id="cvs_'+i+'"></canvas></li>';
+			var ImageObj = new Image(); 
+			ImageObj.index=i;
+			ImageObj.onload=function(){
+				var cvs=$('#cvs_'+this.index)[0].getContext('2d');
+				cvs.width=this.width;
+				cvs.height=this.height;
+				cvs.drawImage(this,0,0);
+			}
+			ImageObj.src=imgSrc;
+		}
+			$('#container').html(li);
+	}
+	render();

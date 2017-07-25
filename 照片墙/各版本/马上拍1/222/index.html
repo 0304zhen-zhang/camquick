@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title></title>
+	    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+   	
+	</head>
+
+	<body>
+		<!--图片列表-->
+		<div id="myiscroll">
+			<div id="">
+				<div id="up">
+					<span class="fa fa-spinner fa-spin"></span>
+				</div>
+				<ul class="img-container " id="container">
+	
+				</ul>
+				<div id="down">
+					<span class="fa fa-spinner fa-spin"></span>
+				</div>
+			</div>
+		</div>
+		
+		<!--大图显示-->
+		<div class="large animated fadeIn" id="large_container" style="display:none">
+			<img id="large_img">
+		</div>
+		
+		
+		<!--公共部分js引入-->
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/iscroll-probe.js" ></script>
+		<script src="js/jquery.touchSwipe.min.js"></script>
+		<script src="js/lazyload.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+ul{
+   	list-style:none;
+}
+ 
+.img-container li img{
+   	width:100%;
+   	height:100%;
+	background: cover;
+}
+.img-container li {
+	width:100px;
+	height:100px;
+   	overflow:hidden;
+   	float:left;
+}
+.large{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:black;
+}
+#up{
+	display: none;
+	text-align: center;
+}
+#down{
+	display: none;
+	text-align: center;
+}
+#main{
+	height: 600px;
+	width:100%;
+}

@@ -1,0 +1,64 @@
+body, button, dd, dl, dt, 
+fieldset, form, h1, h2, 
+h3, h4, h5, h6, hr, input, 
+legend, li, ol, p, pre, td, 
+textarea, th, 
+ul,img{
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+	background: #000000;
+}
+.top{
+	width:100%;
+	height:2rem;
+	position: fixed ;
+	z-index: 99;	
+	background: url("../img/log.jpg") no-repeat center;
+	background-size: cover;
+}
+ul {
+   	list-style:none;
+}
+.img-container li {
+   	/*position: relative;*/
+    width: 33.3333333333%;
+    height:1.45rem;
+    float: left;
+    padding-right: 0.01rem;
+    padding-top:0.0175rem;
+   	-webkit-box-sizing: border-box;
+}
+.img-container .pp .img{
+	height: 100%;
+    width: 100%;
+    background-size: 50% 50%;
+}
+.img-container{
+	padding-top: 2rem;
+	
+}
+.large{
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0px;
+	left:0px;
+	background:#000;
+	z-index: 999;
+}
+.clearfix:after{display: block; content: "\20"; height: 0; clear: both; overflow: hidden; visibility: hidden;}
+.close{
+	position:fixed;
+	top:0.08rem;
+	right:0.08rem;
+}
+.close .fa{
+	display: block;
+	color: #fff;
+	font-size: 0.4rem;
+}

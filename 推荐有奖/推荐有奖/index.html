@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- SEO  -->
+	    <meta name="keywords" content="" />
+	    <meta name="description" content="" />
+	    <meta name="author" content="" />
+	    <!-- 苹果专用 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+	    <meta name="format-detection" content="telephone=no" />
+	    <!-- 简单移动端适配 -->
+   		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ba.css"/>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="banner"><img src="img/banner2@2x.png" /></div>
+		<div class="wrap">
+			<div class="sanjiao">
+				<img src="img/sanjiao.png" />
+			</div>
+			<div class="descript">
+				<p>自由工作&nbsp;更高收入</p>
+				<h1>美好瞬间&nbsp;共同记录</h1>
+				<span>成为马上拍摄影师，开启艺术之旅</span>
+			</div>
+			<button class="apply">申请成为马上拍摄影师</button>
+			<div class="footer">
+				<p>兆像科技（上海）股份有限公司</p>
+				<p>客服电话：400-000-0000</p>
+			</div>
+		</div>
+		
+		<div id="box"></div>
+		<div id="cont">
+			<span class="close"><img src="img/x.png" /></span>
+		  	<h2>登录</h2>
+		  	<div class="menu">
+		  		<span class="message"></span>
+		  		<input type="hidden" id='uid' value="12"/>
+		  		<input type="hidden" id='acode'/>
+		      	<input type="text" id="user" placeholder="请输入您的手机号" maxlength="11">
+		      	<input type="text" id="code" placeholder="请输入验证码" maxlength="4">
+		      	<input id="btnSendCode" class="codeNum" type="button" value="获取验证码" top="{:url('v1/RedCom/aa')}"/>
+		      	<button class="btn">立即加入马上拍</button>
+		      	<div id="shadow"></div>
+		  	</div>
+		</div>
+		
+		
+	</body>
+</html>

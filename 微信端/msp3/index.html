@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- SEO  -->
+	    <meta name="keywords" content="" />
+	    <meta name="description" content="" />
+	    <meta name="author" content="" />
+	    <!-- 苹果专用 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+	    <meta name="format-detection" content="telephone=no" />
+	    <!-- 简单移动端适配 -->
+   		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>马上拍</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<!--时间-->
+		<link href="css/mobiscroll.2.13.2.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="main">
+			<!--顶部-->
+			<div class="main_nav">
+				<ul>
+					<li class="active">马上拍</li>
+					<li>预约拍</li>
+					<li>发现</li>
+				</ul>
+				<div class="main_tap">
+					<div class="main_middle main_tap_1 show animated slideInRight">
+						<div class='middle1'>
+							<em></em>
+							<span class='tit'>轻写真</span>
+							<span class='th'>
+								<i class="fa fa-th-large"></i>
+							</span>
+						</div>
+						<div class='middle2'>
+							<em></em>
+							<p>K歌之王<i class="fa  fa-angle-right"></i></p>
+							
+						</div>	
+					</div>
+					<div class="main_middle main_tap_2 animated slideInRight">
+						<div class='middle1'>
+							<em></em>
+							<span class='tit'>轻写真</span>
+							<span class='th'>
+								<i class="fa fa-th-large"></i>
+							</span>
+						</div>
+						<div class='middle2'>
+							<em></em>
+							<p>K歌之王（北京）旗舰店<i class="fa  fa-angle-right"></i></p>
+						</div>
+						<div class='middle2'>
+							<em></em>
+							<input name="test"  class="tests demo-test-date demo-test-datetime demo-test-time demo-test-credit" placeholder="请选择预约时间"/>
+							<i class="fa  fa-angle-right"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--拍摄类型-->
+			<div class="pho_type">
+				<h2>拍摄类型</h2>
+				<ul>
+					<li class="li1">
+						<span class="img"><img src='img/qxz.png'  /></span>
+						<span class="span">轻写真</span>
+					</li>
+					<li class="li2">
+						<span class="img"><img src='img/jh.png'  /></span>
+						<span class="span">聚会</span>
+					</li>
+					
+					<li class="li3">
+						<span class="img"><img src='img/qz.png'  /></span>
+						<span class="span">亲子</span>
+					</li>
+					<li class="li4">
+						<span class="img"><img src='img/cw.png'  /></span>
+						<span class="span">宠物</span>
+					</li>
+					<li class="li5">
+						<span class="img"><img src='img/hl.png'  /></span>
+						<span class="span">婚礼</span>
+					</li>
+					<li class="li6"> 
+						<span class="img"><img src='img/ms.png'  /></span>
+						<span class="span">美食</span>
+					</li>
+					<li class="li7">
+						<span class="img"><img src='img/cp.png'  /></span>
+						<span class="span">产品</span>
+					</li>
+					<li class="li8">
+						<span class="img"><img src='img/sy.png'  /></span>
+						<span class="span">商用</span>
+					</li>
+					<li class="li9">
+						<span class="img"><img src='img/qt.png'  /></span>
+						<span class="span">其他</span>
+					</li>
+				</ul>
+			</div>
+			<!--地图-->
+			<div class="main_map">
+				<div id="searchResultPanel" style="display:none"></div>
+				<div id="container"></div>
+				<div class="msp">马上拍</div>
+				<div class="triangle_border_down">
+				    <span></span>
+				</div>
+			</div>
+			
+			<!--下单页面-->	
+			<div id="first_order">
+				<div class="order_middle">
+					<div class='middle1'>
+						<em></em>
+						<span class='tit'>轻写真</span>
+						<span class='th'>
+							<i class="fa fa-th-large"></i>
+						</span>
+					</div>
+					<div class='middle2'>
+						<em></em>
+						<p>K歌之王（北京）旗舰店</p>
+						
+					</div>	
+					<div class='middle2'>
+						<em></em>
+						<input name="test"  class="tests demo-test-date demo-test-datetime demo-test-time demo-test-credit" placeholder="请选择预约时间"/>
+						<i class="fa  fa-angle-right"></i>
+					</div>
+					<div class='middle2'>
+						<em></em>
+						<a class="film">
+							<p>为<strong class="strong">自己</strong>约拍</p>
+							<b>替他人约拍<i class="fa  fa-angle-right"></i></b>
+						</a>
+						
+					</div>
+					<div class="common-row">
+						<em></em>
+						<p>自己挑选摄影师</p>
+						<div class="cell-right"><span class="switch-off" id="bluetooth"></span></div>
+					</div>
+					<div class="middle3">
+						<div class="left">
+							<div class="choose">
+								<p>人民摄影师</p>
+							</div>
+							<strong><i class="fa  fa-angle-right"></i></strong>
+						</div>
+						
+						<span class="price">
+							<b>60分钟/9张/99元</b>
+							<i class="fa  fa-angle-right"></i>
+						</span>
+					</div>
+					<div class="middle2">
+						<i class="fa fa-check-square-o"></i>
+						<input type='text' placeholder="给摄影师留言"  class="word"/>
+					</div>
+					<div class="middle4">
+						<button class="button">马上拍</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--订单详情-->
+		<div class="order_sy">
+			<div class="order_title">
+				订单详情
+			</div>
+		</div>
+		<!--蒙板-->
+		<div id='black'></div>
+		<!--时间-->
+		<div class="settings" style="display:none;">
+          <select name="demo" id="demo">
+              <option value="date">日期</option>
+          </select>
+        </div>
+        
+        <!--摄影师详情页-->
+		<div id="details">
+			<div class='details_content'>
+				<div class="content content1">
+					<h1 class="one">人民摄影师</h1>
+					<ul>
+						<li>摄影两年以上</li>
+						<li>接单一次以上</li>
+						<li>好评85%以上</li>
+					</ul>
+					<span>99<b>元</b></span>
+				</div>
+				<div class="content content2">
+					<h1 class="two">优选摄影师</h1>
+					<ul>
+						<li>摄影五年以上</li>
+						<li>从业证书认证</li>
+						<li>好评90%以上</li>
+					</ul>
+					<span>199<b>元</b></span>
+				</div>
+				<div class="content content3">
+					<h1 class="three">金牌摄影师</h1>
+					<ul>
+						<li>摄影十年以上</li>
+						<li>从业获奖证书认证</li>
+						<li>好评95%以上</li>
+					</ul>
+					<span>399<b>元</b></span>
+				</div>
+			</div>
+			<div class="close">
+				<i class="fa fa-close"></i>
+			</div>
+		</div>
+		
+		<!--价格详情页-->
+		<div class='price_detail people'>
+			<ul class="price1">
+				<li class="tu"><img src="img/2.jpg" ></li>
+				<li class="title">人民摄影师</li>
+				<li><em></em>初出茅庐</li>
+				<li><em></em>接单30小时以下</li>
+				<li><em></em>好评85%以上</li>
+			</ul>
+			<ul class="price_middle">
+				<li class="title">约99元</li>
+				<li class="minutes">60分钟/9张/99元</li>
+				<li><b>服务市场</b><i>60分钟</i></li>
+				<li><b>拍片数</b><i>9</i></li>
+			</ul>
+			<div class="close"><img src="img/close.jpg" /></div>
+		</div>
+		<div class='price_detail good'>
+			<ul class="price1">
+				<li class="tu"><img src="img/2.jpg" ></li>
+				<li class="title">优选摄影师</li>
+				<li><em></em>年富力强</li>
+				<li><em></em>接单30小时以上</li>
+				<li><em></em>好评90以上</li>
+			</ul>
+			<ul class="price_middle gold">
+				<li class="title">约199元</li>
+				<li class="minutes">60分钟/12张/199元</li>
+				<li><b>服务市场</b><i>60分钟</i></li>
+				<li><b>拍片数</b><i>12</i></li>
+			</ul>
+			<div class="close"><img src="img/close.jpg" /></div>
+		</div>
+		
+		<div class='price_detail'>
+			<ul class="price1">
+				<li class="tu"><img src="img/2.jpg" ></li>
+				<li class="title">金牌摄影师</li>
+				<li><em></em>经验老到</li>
+				<li><em></em>接单30小时以上</li>
+				<li><em></em>好评95%以上</li>
+			</ul>
+			<ul class="price_middle">
+				<li class="title">约399元</li>
+				<li class="minutes">60分钟/12张/399元</li>
+				<li><b>服务市场</b><i>60分钟</i></li>
+				<li><b>拍片数</b><i>12</i></li>
+			</ul>
+			<div class="close"><img src="img/close.jpg" /></div>
+		</div>
+		<!--替他人约拍-->
+		<div id="other_box" class="animated fadeInRightBig">
+			<div class="others">
+				<ul>
+					<li>
+						<input type="text" id="user">
+			      		<span class="ways">
+			      			<a href="">通讯录</a>
+			      		</span>
+					</li>
+					<li>
+						<input type="tel" id="tel"  maxlength="11">
+					</li>
+					<li>
+						<p class="notice">约拍成功后短信通知约片人</p>
+						<div class="cell-right"><span class="switch-off" id="bluetooth"></span></div>
+					</li>
+				</ul>
+			</div>
+			<div class="oneself">为自己约拍 </div>
+			<div class="sure">确定</div>
+			<div class="message"></div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<!--时间-->
+		<script src="js/mobiscroll.2.13.2.js"></script>
+		<!--地图-->
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+		<!--开关-->
+		<script type="text/javascript" src="js/honeySwitch.js"></script>
+		<script>
+		//honeySwitch.themeColor="lightblue";
+		$(function(){
+			switchEvent("#fly",function(){
+				$("#network").slideUp();
+			},function(){
+				$("#network").slideDown();
+			});
+			switchEvent("#directory",function(){
+				$("#directory_content").fadeIn();
+			},function(){
+				$("#directory_content").fadeOut();
+			});
+		});
+	</script>
+	</body>
+</html>
+
+	</body>
+</html>
+		

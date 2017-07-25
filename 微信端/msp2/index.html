@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- SEO  -->
+	    <meta name="keywords" content="" />
+	    <meta name="description" content="" />
+	    <meta name="author" content="" />
+	    <!-- 苹果专用 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+	    <meta name="format-detection" content="telephone=no" />
+	    <!-- 简单移动端适配 -->
+   		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link href="css/mobiscroll.2.13.2.css" rel="stylesheet" />
+		<!--<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchControl/1.4/src/SearchControl_min.css" />-->
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>-->
+		<!--<script type="text/javascript" src="http://api.map.baidu.com/library/SearchControl/1.4/src/SearchControl_min.js"></script>-->
+		<!--<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>-->
+		<script src="js/mobiscroll.2.13.2.js"></script>
+    	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+    	<style>
+    		
+    	</style>
+	</head>
+	<body>
+		<!--首页-->
+		<div id="main">
+			<!--<div class="main_top">
+				<ul>
+					<li class='first'><i class="fa fa-user"></i></li>
+					<li class="adress">上海市</li>
+					<li class='last'><i class="fa fa-edit"></i></li>
+				</ul>
+			</div>-->
+			<div class="main_nav">
+				<ul>
+					<li class="active">马上拍</li>
+					<li>预约拍</li>
+					<li>发现</li>
+				</ul>
+				<div class="main_tap">
+					<div class="main_middle main_tap_1 show animated slideInRight">
+						<div class='middle1'>
+							<span class='log'><img src="img/qxz.png" /></span>
+							<span class='tit'>轻写真</span>
+							<span class='th'>
+								<i class="fa fa-th-large"></i>
+							</span>
+						</div>
+						<div class='middle2'>
+							<span></span>
+							<!--<p>K歌之王（北京）旗舰店</p>-->
+							<input type="text" id="suggestId1" size="30" value="上海" style="width:300px;" />
+						</div>	
+					</div>
+					<div class="main_middle main_tap_2 animated slideInRight">
+						<div class='middle1'>
+							<span class='log'><img src="img/qxz.png" /></span>
+							<span class='tit'>轻写真</span>
+							<span class='th'>
+								<i class="fa fa-th-large"></i>
+							</span>
+						</div>
+						<div class='middle2'>
+							<span></span>
+							<!--<p>K歌之王（北京）旗舰店</p>-->
+							<input type="text" id="suggestId2" size="30" value="上海" style="width:300px;" />
+						</div>
+						<div class='middle2'>
+							<span></span>
+							<p>现在</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--拍摄类型-->
+			<div class="pho_type">
+				<ul>
+					<li>
+						<span class="img"><img src='img/qxz.png'  /></span>
+						<span class="span">轻写真</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/jh.png'  /></span>
+						<span class="span">聚会</span>
+					</li>
+					
+					<li>
+						<span class="img"><img src='img/qz.png'  /></span>
+						<span class="span">亲子</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/cw.png'  /></span>
+						<span class="span">宠物</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/hl.png'  /></span>
+						<span class="span">婚礼</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/ms.png'  /></span>
+						<span class="span">美食</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/cp.png'  /></span>
+						<span class="span">产品</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/sy.png'  /></span>
+						<span class="span">商用</span>
+					</li>
+					<li>
+						<span class="img"><img src='img/qt.png'  /></span>
+						<span class="span">其他</span>
+					</li>
+				</ul>
+			</div>
+			<!--下单页面-->	
+			<div id="first_order">
+				<div class="order_top">
+					<ul>
+						<li class='first'><i class="fa fa-angle-left"></i></li>
+						<li class="adress">上海市<i class="fa fa-angle-down"></i></li>
+						<li class='last'><i class="fa fa-edit"></i></li>
+					</ul>
+				</div>
+				<div class="order_middle">
+					<div class='middle1'>
+						<span><img src="img/qxz.png" /></span>
+						<span class='tit'>轻写真</span>
+						<span class='th'>
+							<i class="fa fa-th-large"></i>
+						</span>
+					</div>
+					<div class='middle2'>
+						<span></span>
+						<!--<p>K歌之王（北京）旗舰店</p>-->
+						<input type="text" id="suggestId3" size="30" value="上海" style="width:300px;" />
+					</div>	
+					<div class='middle2'>
+						<span></span>
+						<input name="test" id="tests" class="demo-test-date demo-test-datetime demo-test-time demo-test-credit" placeholder="现在"/>
+						<i class="fa  fa-angle-right"></i>
+					</div>
+					<div class='middle2'>
+						<span></span>
+						<p>为自己约拍</p>
+						<b>替他人约拍<i class="fa  fa-angle-right"></i></b>
+					</div>
+					<div class='middle2'>
+						<span></span>
+						<p>自己挑选摄影师</p>
+						<input type="checkbox" id="checkbox_c1" class="chk_3 " /><label for="checkbox_c1" class="open"></label>
+					</div>
+					<div class="middle3">
+						<div class="choose">
+							<p>人民摄影师</p>
+						</div>
+						<em><i class="fa  fa-angle-right"></i></em>
+						<span>60分钟/9张/99元<i class="fa  fa-angle-right"></i></span>
+					</div>
+					<div class="middle2">
+						<i class="fa fa-check-square-o"></i>
+						<input type='text' placeholder="给摄影师留言"  class="word"/>
+					</div>
+					<div class="middle4">
+						<button class="button">马上拍</button>
+					</div>
+				</div>
+			</div>
+			<div id="main_map">
+				<div id="searchResultPanel" style="display:none"></div>
+				<div id="container"></div>
+				<div class="msp">马上拍</div>
+				<div class="triangle_border_down">
+				    <span></span>
+				</div>
+			</div>
+			
+		</div>
+		<!--地址阴影部分-->
+		<div id="shadow">
+			<div class="switch_city">
+				<p>北京市</p>
+				<span>切换城市<i class="fa fa-angle-right"></i></span>
+			</div>
+			<div class="switch_city_b"></div>
+		</div>
+		<!--city_box-->
+		<div id="city_box" style="display: none;">
+			<header>
+				<h1>服务城市</h1>
+			</header>
+			<div class="index">
+				<ul>
+					<li>A</li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+					<li>E</li>
+					<li>F</li>
+					<li>G</li>
+					<li>H</li>
+					<li>I</li>
+					<li>J</li>
+					<li>K</li>
+					<li>L</li>
+					<li>M</li>
+					<li>N</li>
+					<li>O</li>
+					<li>P</li>
+					<li>Q</li>
+					<li>R</li>
+					<li>S</li>
+					<li>T</li>
+					<li>U</li>
+					<li>V</li>
+					<li>W</li>
+					<li>X</li>
+					<li>Y</li>
+					<li>Z</li>
+				</ul>
+			</div>
+			<div class="now">
+				<p>当前定位城市</p>
+				<span>上海</span>
+			</div>
+			<div class="hot">
+				<p>热门城市</p>
+				<ul>
+					<li>北京</li>
+					<li>上海市</li>
+					<li>广州市</li>
+					<li>深圳市</li>
+				</ul>
+				<p>主要城市</p>
+			</div>
+			<div class="city">
+				<ul>
+					<li class="odd">B</li>
+					<li class="even"><a href="">北京市</a></li>
+					<li class="odd">F</li>
+					<li ><a href="#">福州市</a></li>
+					<li class="odd">G</li>
+					<li ><a href="#">广州市</a></li>
+					<li class="odd">H</li>
+					<li ><a href="#">杭州市</a></li>
+					<li class="odd">J</li>
+					<li ><a href="#">鸡西市</a></li>
+					<li ><a href="#">景德镇市</a></li>
+					<li ><a href="#">济南市</a></li>
+					<li class="odd">N</li>
+					<li ><a href="#">南京市</a></li>
+					<li ><a href="#">南昌市</a></li>
+					<li class="odd">Q</li>
+					<li ><a href="#">泉州市</a></li>
+					<li class="odd">S</li>
+					<li ><a href="#">石家庄市</a></li>
+					<li ><a href="#">四平市</a></li>
+					<li ><a href="#">上海市</a></li>
+					<li class="odd">T</li>
+					<li ><a href="#">天津市</a></li>
+					<li class="odd">W</li>
+					<li ><a href="#">武汉市</a></li>
+					<li class="odd">Y</li>
+					<li ><a href="#">伊春市</a></li>
+					<li ><a href="#">鹰潭市</a></li>
+					<li ><a href="#">烟台市</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<!--摄影师详情页-->
+		<div id="details">
+			<div class='details_content'>
+				<div class="content content1">
+					<h1 class="one">人民摄影师</h1>
+					<ul>
+						<li>摄影两年以上</li>
+						<li>接单一次以上</li>
+						<li>好评85%以上</li>
+					</ul>
+					<span>99<b>元</b></span>
+				</div>
+				<div class="content content2">
+					<h1 class="two">优选摄影师</h1>
+					<ul>
+						<li>摄影五年以上</li>
+						<li>从业证书认证</li>
+						<li>好评90%以上</li>
+					</ul>
+					<span>199<b>元</b></span>
+				</div>
+				<div class="content content3">
+					<h1 class="three">金牌摄影师</h1>
+					<ul>
+						<li>摄影十年以上</li>
+						<li>从业获奖证书认证</li>
+						<li>好评95%以上</li>
+					</ul>
+					<span>399<b>元</b></span>
+				</div>
+			</div>
+			<div class="close">
+				<i class="fa fa-close"></i>
+			</div>
+		</div>
+		<!--时间-->
+		<div class="settings" style="display:none;">
+          <select name="demo" id="demo">
+              <option value="date">日期</option>
+          </select>
+        </div>
+        
+        <script type="text/javascript">
+	function G(id) {
+	    return document.getElementById(id);
+	}
+	
+	var map = new BMap.Map("container");
+	var point = new BMap.Point(116.3964,39.9093);
+	map.centerAndZoom(point,13);
+	map.enableScrollWheelZoom();
+	
+	var ab = new BMap.Autocomplete(    //建立一个自动完成的对象
+	    {"input" : "suggestId1"
+	    ,"location" : map
+	});
+	
+	ab.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+	var str = "";
+	    var _value = e.fromitem.value;
+	    var value = "";
+	    if (e.fromitem.index > -1) {
+	        value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    }    
+	    str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+	    
+	    value = "";
+	    if (e.toitem.index > -1) {
+	        _value = e.toitem.value;
+	        value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    }    
+	    str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+	    G("searchResultPanel").innerHTML = str;
+	});
+	
+	var myValue;
+	ab.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+	var _value = e.item.value;
+	    myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+	    
+	    setPlace();
+	});
+	
+	
+	var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+	    {"input" : "suggestId2"
+	    ,"location" : map
+	});
+	
+	ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+	var str = "";
+	    var _value = e.fromitem.value;
+	    var value = "";
+	    if (e.fromitem.index > -1) {
+	        value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    }    
+	    str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+	    
+	    value = "";
+	    if (e.toitem.index > -1) {
+	        _value = e.toitem.value;
+	        value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    }    
+	    str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+	    G("searchResultPanel").innerHTML = str;
+	});
+	
+	var myValue;
+	ac.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+	var _value = e.item.value;
+	    myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+	    
+	    setPlace();
+	});
+	
+	var bc = new BMap.Autocomplete(    //建立一个自动完成的对象
+	    {"input" : "suggestId3"
+	    ,"location" : map
+	});
+	
+	bc.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+	var str = "";
+	    var _value = e.fromitem.value;
+	    var value = "";
+	    if (e.fromitem.index > -1) {
+	        value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    }    
+	    str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+	    
+	    value = "";
+	    if (e.toitem.index > -1) {
+	        _value = e.toitem.value;
+	        value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    }    
+	    str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+	    G("searchResultPanel").innerHTML = str;
+	});
+	
+	var myValue;
+	bc.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+	var _value = e.item.value;
+	    myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+	    G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+	    
+	    setPlace();
+	});
+	
+	function setPlace(){// 创建地址解析器实例
+	var myGeo = new BMap.Geocoder();// 将地址解析结果显示在地图上,并调整地图视野
+	myGeo.getPoint(myValue, function(point){
+	  if (point) {
+	    map.centerAndZoom(point, 16);
+	    map.addOverlay(new BMap.Marker(point));
+	  }
+	}, "北京");
+	}
+	</script>
+	</body>
+</html>

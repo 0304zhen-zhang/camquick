@@ -1,0 +1,25 @@
+html,body{width:100%;height:100%;background:#eeeeee;}
+.banner{width:100%;}
+.banner img{width:100%;height:100%;}
+.wrap{position:relative;width:80%;height: 6rem;padding:0.8rem 10% 0 10%;text-align: center;}
+.sanjiao{position: absolute;top:-0.2rem;left:0;width:2.8rem;height:3.2rem;}
+.sanjiao img{width:100%;height:100%;}
+.descript p{font-size: 0.54rem;color:#e40211;font-family: "宋体";}
+.descript h1{font-size: 0.57rem;color:#e40211;line-height: 0.7rem;}
+.descript span{font-size: 0.23rem;color:#323232;line-height: 0.5rem;}
+.apply{color:#fff;height:0.9rem;width:100%;font-size:0.28rem;background: #e40211;border:0;border-radius: 0.1rem;margin:0.8rem 0;}
+.footer{color:#767676;font-size:0.18rem;line-height:0.35rem;}
+/*登录内容*/
+#box{background: #000;display:none;width:100%;height:100%;z-index: 2;position:absolute;top:0;left:0;opacity: 0.4;}
+#cont{display:none;width:5rem;height:5.2rem;background:#fff;position:absolute;top:30%;left:11%;z-index:3;border-radius:2%;box-shadow:0px 0px 10px #979797;}
+#cont .close{float: right;width:0.3rem;height:0.3rem;margin:0.1rem 0.1rem 0 0;display: block;}
+#cont h2{height:0.6rem;color:#000;line-height:0.6rem;text-align:center;margin:0.5rem 0 0.4rem;font-size:0.34rem;font-weight: normal;}
+#cont .menu{height:3.5rem;padding-left:10%;width:90%;}
+#cont .menu input{width:4rem;height:0.6rem;border-radius:3%;border:1px solid #ccc;outline:none;text-indent:0.6rem;margin-bottom:0.35rem;}
+#cont #user{background:url(../img/shouji.png) no-repeat 0.1rem 0.17rem;}
+#cont #code{background:url(../img/yanzheng.png) no-repeat 0.1rem 0.14rem;width:2.3rem;text-indent:0.56rem;}
+#cont .menu .message{width:4rem;height:0.35rem;line-height:0.35rem;display:inline-block;border:1px solid #ff7373; position:absolute;left:10%; top:1rem;background:#fff2f2 url(../img/05.png) no-repeat 0.18rem 0.01rem;visibility:hidden;text-indent:0.6rem;font-size:0.2rem;}
+#cont .menu .codeNum{width:1.4rem;height:0.65rem;float:right;background:#eee;color:#000;margin:0 0.45rem 0 0;font-size:0.2rem;text-indent:0rem;}
+#cont .menu  .btn{width:4rem;height:0.65rem;background:#e40211;color:#fff;line-height:0.65rem;text-align:center;
+display:inline-block;border-radius:4%;font-size:0.26rem;cursor:pointer;border:0;}
+#shadow{background: #eee;display:none;width:1.5rem;height:0.7rem;z-index: 2;position:absolute;top: 2.5rem; right: 0.4rem;opacity: 0.4;}

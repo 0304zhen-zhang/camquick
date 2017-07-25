@@ -1,0 +1,166 @@
+section{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+}
+header{
+	width: 100%;
+	height: 0.67rem;
+	background: #010101;
+	color:#fff;
+}
+header h1{
+	font-size:0.26rem ;
+	font-weight: normal;
+	text-align: center;
+	line-height: 0.67rem;
+}
+.content{
+	background: #eeeeee;
+	width:100%;
+	height:5.69rem;
+}
+#black{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 6.3rem;
+	background: black;
+	opacity: 0.4;
+}
+.div1{
+	height: 1rem;
+	padding:1% 5%;
+	background: #ffffff;
+}
+.div1 h2{
+	float: left;
+	width:0.9rem;
+	height:0.9rem;
+}
+.div1 h2 img{
+	width:100%;
+	height:100%;
+}
+.div1 .main_list{
+	float: left;
+	margin:0 0.2rem;
+	height: 1.2rem;
+}
+.main_list h1{
+	font-size: 0.25rem;
+	line-height:0.4rem ;
+	color:#010101;
+	font-weight: normal;
+}
+.main_list ul{
+	height:0.3rem;
+}
+.main_list ul li{
+	float: left;
+	line-height:0.3rem ;
+	color:#8b8b8b;
+	font-size: 0.16rem;
+	width:1rem;
+	text-align: center;
+}
+.div1 span{
+	margin-top:0.16rem;
+	float:right;
+	width:0.43rem;
+	height:0.43rem;
+}
+.div1 span img{
+	width:100%;
+	height:100%;
+}
+.div2{
+	margin-top:2%;
+	width:100%;
+	height:4.4rem;
+}
+.div2 h2{
+	width:100%;
+	height:0.46rem;
+}
+.div2 h2 img{
+	float: right;
+	width:0.8rem;
+	height:0.4rem;
+	margin-right:0.08rem;
+}
+.div2 ul li{
+	width:1.24rem;
+	height:1.28rem;	
+	float: left;
+	margin:0.02rem;
+}
+.div2 ul li img{
+	width:100%;
+	height:100%;	
+}
+.appraisal{
+	width:100%;
+	height:4.2rem;	
+}
+
+.msg_nav{
+	height:0.4rem;
+	width:100%;
+	margin-top:0.1rem;
+}
+
+.appraisal .msg_nav li{
+	float:left;
+	width:32%;
+	line-height:0.5rem;
+	font-size:16px;
+	text-align: center;
+	border-right:1px solid #b1b1b1;
+	color: #000000;
+}
+.appraisal .msg_nav .last{
+	border-right:0;
+}
+.msg_nav .show{
+	border-bottom:2px solid #ff0033;
+}
+.tab_one{
+	margin-top:0.3rem;
+}
+.tab_one ul li{
+	float: left;
+	width:2.67rem;
+	height:0.57rem;
+	border: 1px solid #b1b1b1;
+	border-radius: 0.34rem;
+	margin-top:0.18rem ;
+	margin-left: 0.32rem;
+	text-align: center;
+	line-height: 0.57rem;
+	color:#5d5d5d;
+}
+.tab_one .active{
+	background: #e50c21;
+	color:#fff;
+}
+#tab>div{
+	display:none;
+}
+#tab .apper{
+	display:block;
+}
+.button{
+	width:5.3rem;
+	height:0.58rem;
+	font-size: 0.24rem;
+	background: #e50c21;
+	line-height: 0.58rem;
+	border: 0;
+	border-radius: 0.1rem;
+	color: #fff;
+	margin-left:8%;
+}

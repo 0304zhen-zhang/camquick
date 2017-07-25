@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchControl/1.4/src/SearchControl_min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/SearchControl/1.4/src/SearchControl_min.js"></script>
+		
+	</head>
+	<body>
+		<!--首页-->
+		<div id="main">
+			<header>
+				<ul>
+					<li class='first'><i class="fa fa-user"></i></li>
+					<li class="adress">上海市<i class="fa fa-angle-down"></i></li>
+					<li class='last'><i class="fa fa-edit"></i></li>
+				</ul>
+			</header>
+			<div id="nav">
+				<ul>
+					<li class="active">马上拍</li>
+					<li>预约拍</li>
+					<li>发现</li>
+				</ul>
+			</div>
+			<div id="middle">
+				<div class='middle1'>
+					<span><img src="img/qxz.jpg" /></span>
+					<span class='tit'>轻写真</span>
+					<span class='th'>
+						<i class="fa fa-th-large"></i>
+					</span>
+				</div>
+				<!--<div class='middle2'>
+					<span></span>
+					<p>K歌之王（北京）旗舰店</p>
+				</div>	-->
+			</div>
+			<div id="searchBox"></div>
+			<div id="map_container"></div>
+			<div class="msp">马上拍</div>
+			<div class="triangle_border_down">
+			    <span></span>
+			</div>
+		</div>
+		<!--阴影部分-->
+		<div class="box">
+			<div class="switch_city">
+				<p>北京市</p>
+				<span>切换城市<i class="fa fa-angle-right"></i></span>
+			</div>
+			<div class="switch_city_b"></div>
+		</div>
+		<!--city_box-->
+		<div class="city_box" style="display: none;">
+			<header>
+				<h1>服务城市</h1>
+			</header>
+			<div class="index">
+				<ul>
+					<li>A</li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+					<li>E</li>
+					<li>F</li>
+					<li>G</li>
+					<li>H</li>
+					<li>I</li>
+					<li>J</li>
+					<li>K</li>
+					<li>L</li>
+					<li>M</li>
+					<li>N</li>
+					<li>O</li>
+					<li>P</li>
+					<li>Q</li>
+					<li>R</li>
+					<li>S</li>
+					<li>T</li>
+					<li>U</li>
+					<li>V</li>
+					<li>W</li>
+					<li>X</li>
+					<li>Y</li>
+					<li>Z</li>
+				</ul>
+			</div>
+			<div class="now">
+				<p>当前定位城市</p>
+				<span>上海</span>
+			</div>
+			<div class="hot">
+				<p>热门城市</p>
+				<ul>
+					<li>北京</li>
+					<li>上海市</li>
+					<li>广州市</li>
+					<li>深圳市</li>
+				</ul>
+				<p>主要城市</p>
+			</div>
+			<div class="city">
+				<ul>
+					<li class="odd">B</li>
+					<li class="even"><a href="">北京市</a></li>
+					<li class="odd">F</li>
+					<li ><a href="#">福州市</a></li>
+					<li class="odd">G</li>
+					<li ><href="#">广州市</a></li>
+					<li class="odd">H</li>
+					<li ><href="#">杭州市</a></li>
+					<li class="odd">J</li>
+					<li ><a href="#">鸡西市</a></li>
+					<li ><a href="#">景德镇市</a></li>
+					<li ><a href="#">济南市</a></li>
+					<li class="odd">N</li>
+					<li ><a href="#">南京市</a></li>
+					<li ><a href="#">南昌市</a></li>
+					<li class="odd">Q</li>
+					<li ><a href="#">泉州市</a></li>
+					<li class="odd">S</li>
+					<li ><a href="#">石家庄市</a></li>
+					<li ><a href="#">四平市</a></li>
+					<li ><a href="#">上海市</a></li>
+					<li class="odd">T</li>
+					<li ><a href="#">天津市</a></li>
+					<li class="odd">W</li>
+					<li ><a href="#">武汉市</a></li>
+					<li class="odd">Y</li>
+					<li ><a href="#">伊春市</a></li>
+					<li ><a href="#">鹰潭市</a></li>
+					<li ><a href="#">烟台市</a></li>
+					
+				</ul>
+			</div>
+		</div>
+			
+	</body>
+</html>

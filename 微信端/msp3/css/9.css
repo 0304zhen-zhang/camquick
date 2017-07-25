@@ -1,0 +1,183 @@
+section{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+}
+header{
+	width: 100%;
+	height: 0.67rem;
+	background: #010101;
+	color:#fff;
+}
+header h1{
+	font-size:0.26rem ;
+	font-weight: normal;
+	text-align: center;
+	line-height: 0.67rem;
+}
+.content{
+	background: #eeeeee;
+	width:100%;
+	-webkit-box-flex: 1;
+	
+}
+.div1{
+	height: 1rem;
+	padding:1% 5%;
+	background: #ffffff;
+}
+.div1 h2{
+	float: left;
+	width:0.9rem;
+	height:0.9rem;
+}
+.div1 h2 img{
+	width:100%;
+	height:100%;
+}
+.div1 .main_list{
+	float: left;
+	margin:0 0.2rem;
+	height: 1.2rem;
+}
+.main_list h1{
+	font-size: 0.25rem;
+	line-height:0.4rem ;
+	color:#010101;
+	font-weight: normal;
+}
+.main_list ul{
+	height:0.3rem;
+}
+.main_list ul li{
+	float: left;
+	line-height:0.3rem ;
+	color:#8b8b8b;
+	font-size: 0.16rem;
+	width:1rem;
+	text-align: center;
+}
+.div1 span{
+	margin-top:0.16rem;
+	float:right;
+	width:0.43rem;
+	height:0.43rem;
+}
+.div1 span img{
+	width:100%;
+	height:100%;
+}
+.div2{
+	margin-top:2%;
+	width:100%;
+	height:4.6rem;
+}
+.div2 h2{
+	width:100%;
+	height:0.46rem;
+}
+.div2 h2 img{
+	float: right;
+	width:0.8rem;
+	height:0.4rem;
+	margin-right:0.08rem;
+}
+.div2 ul li{
+	width:1.24rem;
+	height:1.28rem;	
+	float: left;
+	margin:0.02rem;
+}
+.div2 ul li img{
+	width:100%;
+	height:100%;	
+}
+.div3{
+	width:4rem;
+	height:1.8rem;
+	margin:0 auto;
+}
+.div3 dl dt span{
+	display: inline-block;                       
+	height:0.5rem;
+	color:#b0b0b0;
+	line-height:0.5rem ;
+}
+.div3 dt img{
+	width:1.15rem;
+}
+dl dd{
+	list-style:square inside url("../img/li.jpg");
+	line-height:0.35rem;
+	color:#000;
+	font-size: 0.18rem;
+}
+dd i{
+	display: inline-block;
+	float: left;
+	width: 0.05rem;
+	height:0.05rem;
+	background: red;
+	margin:3% 4% 0 0 ;
+}
+.div3 dl dd span{
+	color:#dd2020;
+}
+.div4{
+	width:4rem;
+	height:1.4rem;
+	margin:0 auto;
+}
+.div4 dl dt span{
+	display: inline-block;                       
+	height:0.5rem;
+	color:#b0b0b0;
+	line-height:0.5rem ;
+}
+.div4 dt img{
+	width:1.15rem;
+}
+.div4 dl dd{
+	color:#6b6b6b;
+}
+.div4 dl dd b{
+	margin-left: 50%;
+	font-weight: normal;
+}
+.div4 dl dd span{
+	float: right;
+	margin-right: 10%;
+	padding-right: 5%;
+	color:#e60e22;
+	background: url("../img/select.jpg") no-repeat right;
+}
+.total{
+	color:#6b6b6b;
+	border-top:1px solid #dddddd;
+	margin: 0 4%;
+}
+.total p{
+	text-align: center;
+	line-height: 0.8rem;
+}
+.total strong{
+	color: #e60e22;
+}
+.button span{
+	display: inline-block;
+	color:#6b6b6b;
+	font-size:0.14rem;
+	margin-left: 0.2rem;
+	margin-top:0.2rem;
+}
+.button button{
+	background: #e50c21;
+	color:#fff;
+	width: 1.57rem;
+	height:0.5rem;
+	border:0;
+	border-radius: 0.08rem;
+	margin-left: 1.4rem;
+}
